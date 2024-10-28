@@ -32,6 +32,6 @@ app.post("/payment/create", async (req, res) => {
 });
 app.listen(5000, (err) => {
   if (err) throw err;
-  console.log(`Amaon serer running on port:5000, http://127.0.0.1:5000`);
+  console.log(`Amazon server running on port:5000, http://127.0.0.1:5000`);
 });
 //exports.api = functions.https.onRequest(app);
