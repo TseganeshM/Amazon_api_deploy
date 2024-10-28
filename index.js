@@ -14,7 +14,7 @@ app.use(express.json());
 
 // Example route to handle payments
 app.get("/", (req, res) => {
-  res.status(201).join({ message: "success" });
+  res.status(201).json({ message: "success" });
 });
 
 app.post("/payment/create", async (req, res) => {
